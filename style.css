@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 400px;
+  height: 360px;
+  padding: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.241);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.separator {
+  margin-top: 5px;
+  width: 75%;
+  height: 2px;
+  background-color: rgba(208, 208, 208, 0.323);
+}
+.course-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+p {
+  display: inline-block;
+}
+.discount {
+  margin-left: 15px;
+  background-color: #1dd1a1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.discounted-price {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #777c85;
+}
+.orignal-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6674cc;
+}
